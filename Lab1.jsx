@@ -1,6 +1,6 @@
 import { useState } from 'react'; 
 import './App.css'; 
-function App() { 
+function Lab1() { 
 const [text, setText] = useState(''); 
 return ( 
 <div className="App" > 
@@ -14,4 +14,4 @@ onChange={(e) => setText(e.target.value)}
 </div> 
 ); 
 } 
-export default App;
+export default Lab1;
