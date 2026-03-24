@@ -1,0 +1,32 @@
+.app{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form{
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form input,button{
+   width: 100%;
+   margin: 10px;
+}
+
+.filters{
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:18%;
+}
+
+.filters button{
+  width:100%;
+  background-color: blue;
+  color:white;
+}
